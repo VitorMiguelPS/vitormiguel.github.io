@@ -1,0 +1,724 @@
+@font-face {
+  font-family: "lato-light";
+  src: url("../fonts/Lato-Light.ttf");
+}
+@font-face {
+  font-family: "lato-black";
+  src: url("../fonts/Lato-Black.ttf");
+}
+@font-face {
+  font-family: "lato-italic";
+  src: url("../fonts/Lato-Italic.ttf");
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top_box--advertise {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  margin-block-end: 5px;
+  margin-block-start: 5px;
+  font-family: "lato-light";
+  font-size: 10px;
+}
+
+.main_top_box {
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+.main_top_box .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.top_box_places a {
+  text-decoration: none;
+  font-family: "lato-light";
+  color: black;
+  font-size: 12px;
+}
+
+.top_box_places a :hover {
+  color: #c00018;
+  font-weight: 600;
+}
+
+.top_box_places {
+  display: flex;
+  width: 150px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.login-bag ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.login-bag {
+  width: 60px;
+  margin-left: 4%;
+}
+
+.container .logo {
+  position: absolute;
+}
+
+.pesquisa .search-form {
+  margin-right: 5px;
+}
+
+.pesquisa {
+  align-items: center;
+  display: flex;
+  position: relative;
+  left: 23%;
+}
+
+.text-search {
+  font-family: "lato-light";
+  border-bottom: 1px solid #000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.menu_box {
+  font-family: "lato-light";
+}
+
+.sub-menu {
+  display: none;
+  width: 150px;
+  position: absolute;
+  z-index: 999;
+  background: white;
+}
+
+.list_itens {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.list_itens li {
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.item_menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+.banner_top {
+  height: 630px;
+}
+
+.image-banner {
+  margin-left: 12%;
+  position: absolute;
+  z-index: 1;
+}
+
+.image-banner-back {
+  margin-left: 6%;
+  margin-top: 3%;
+  position: absolute;
+}
+
+.block-sub h3 {
+  margin-left: 15px;
+}
+
+.box-text {
+  position: absolute;
+  z-index: 2;
+  width: 445px;
+  font-family: "lato-light";
+  left: 52%;
+  top: 50%;
+  color: white;
+}
+
+.text-1 {
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+}
+.text-2 {
+  text-align: center;
+  font-size: 89px;
+  margin: 0;
+  font-family: "lato-black";
+}
+.text-3 {
+  font-size: 12px;
+  width: 345px;
+  margin-left: 75px;
+}
+
+.box-btn a {
+  text-decoration: none;
+  font-family: "lato-light";
+}
+
+.btn-page {
+  color: white;
+  width: 160px;
+  height: 45px;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-page:hover {
+  background: white;
+  color: #000 !important;
+}
+
+.box-btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box-change {
+  position: absolute;
+  z-index: 2;
+  width: 140px;
+  height: 60px;
+  top: 100%;
+  left: 77%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-left {
+  height: 40px;
+  width: 40px;
+  margin: 0;
+  border: 1px solid #fff;
+}
+
+.btn-left svg {
+  transform: translate(13px, 10px);
+}
+
+.btn-right {
+  height: 40px;
+  width: 40px;
+  margin: 0;
+  border: 1px solid #fff;
+}
+
+.btn-right svg {
+  transform: translate(15px, 10px);
+}
+
+.shelf_collections .container {
+  margin-left: 21%;
+  display: grid;
+  grid-template-columns: 390px 390px;
+  grid-template-rows: 470px 370px;
+}
+
+.collection-woman {
+  margin-top: -178px;
+}
+
+.collection-esportivo {
+  margin-top: 80px;
+}
+
+.collection-man {
+  margin-top: 80px;
+}
+
+.casual-text-1 {
+  position: absolute;
+  top: 815px;
+  left: 426px;
+  font-family: "lato-black";
+  color: white;
+  letter-spacing: 4px;
+}
+
+.casual-text-2 {
+  position: absolute;
+  top: 785px;
+  left: 360px;
+  font-family: "lato-black";
+  color: transparent;
+  font-size: 75px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+}
+
+.man-text-1 {
+  position: absolute;
+  top: 1050px;
+  left: 760px;
+  font-family: "lato-black";
+  color: white;
+  letter-spacing: 4px;
+}
+
+.man-text-2 {
+  position: absolute;
+  top: 1011px;
+  left: 766px;
+  font-family: "lato-black";
+  color: white;
+  font-size: 75px;
+}
+
+.woman-text-1 {
+  position: absolute;
+  top: 1262px;
+  left: 386px;
+  font-family: "lato-black";
+  color: white;
+  letter-spacing: 4px;
+}
+
+.woman-text-2 {
+  position: absolute;
+  top: 1220px;
+  left: 308px;
+  font-family: "lato-black";
+  color: white;
+  font-size: 75px;
+}
+
+.esportivo-text-1 {
+  position: absolute;
+  top: 1380px;
+  left: 790px;
+  font-family: "lato-black";
+  color: white;
+  letter-spacing: 4px;
+}
+
+.esportivo-text-2 {
+  position: absolute;
+  top: 1339px;
+  left: 750px;
+  font-family: "lato-black";
+  color: transparent;
+  font-size: 75px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+}
+
+.box-btn-casual {
+  position: absolute;
+  display: flex;
+  font-family: "lato-light";
+  top: 945px;
+  left: 383px;
+}
+
+.box-btn-casual a {
+  text-decoration: none;
+}
+
+.box-btn-man {
+  position: absolute;
+  display: flex;
+  font-family: "lato-light";
+  top: 1168px;
+  left: 776px;
+}
+
+.box-btn-man a {
+  text-decoration: none;
+}
+
+.box-btn-woman {
+  position: absolute;
+  display: flex;
+  font-family: "lato-light";
+  top: 1381px;
+  left: 398px;
+}
+
+.box-btn-woman a {
+  text-decoration: none;
+}
+
+.box-btn-esportivo {
+  position: absolute;
+  display: flex;
+  font-family: "lato-light";
+  top: 1497px;
+  left: 775px;
+}
+
+.box-btn-esportivo a {
+  text-decoration: none;
+}
+
+.shelf_products h2 {
+  text-align: center;
+  font-family: "lato-light";
+  font-size: 25px;
+}
+
+.shelf_gender {
+  display: flex;
+  justify-content: center;
+}
+
+.shelf_products_male {
+  list-style-type: none;
+  font-size: 12px;
+}
+
+.shelf_products_female {
+  list-style-type: none;
+  font-size: 12px;
+}
+
+.shelf_gender li {
+  margin: 0 20px;
+  text-decoration: none;
+  font-family: "lato-italic";
+  color: #000;
+  cursor: pointer;
+}
+
+.shelf_gender li:hover {
+  color: #c00018;
+  border-bottom: 1px solid #c00018;
+}
+
+.products-female {
+  list-style: none;
+  margin: 0px 36px;
+  padding: 0;
+  height: 480px;
+}
+
+.product_name h5 {
+  font-family: "lato-light";
+  text-align: center;
+}
+
+.list_price {
+  font-family: "lato-light";
+}
+
+.slick-list{
+  height: 480px;
+}
+
+.slick-prev {
+  left: -15px !important;
+  background: url("../images/left-slick.png") no-repeat !important;
+  height: 50px !important;
+  width: 25px !important;
+}
+
+.slick-prev:before {
+  content: "" !important;
+}
+
+.slick-next {
+  right: 15px !important;
+  background: url("../images/right-slick.png") no-repeat !important;
+  height: 50px !important;
+  width: 26px !important;
+  transform: translate(31px, -50%) !important;
+}
+
+.slick-next:before {
+  content: "" !important;
+}
+
+.product-item {
+  width: 287px !important;
+  margin-left: 29px;
+}
+
+.product-item:hover {
+  -webkit-box-shadow: 4px 4px 14px 0px rgba(50, 50, 50, 0.7);
+  -moz-box-shadow: 4px 4px 14px 0px rgba(50, 50, 50, 0.7);
+  box-shadow: 4px 4px 14px 0px rgba(50, 50, 50, 0.7);
+}
+
+.product_price {
+  text-align: center;
+}
+
+.product__image img {
+  margin: 0 17px;
+}
+
+.products-male {
+  display: none;
+}
+
+.box-btn-comprar {
+  font-family: "lato-light";
+  margin-left: 62px;
+}
+
+.box-btn-comprar a {
+  text-decoration: none;
+  font-family: "lato-light";
+}
+
+.btn-comprar {
+  color: black;
+  width: 160px;
+  height: 45px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-comprar:hover {
+  color: white;
+  background: black;
+}
+
+.second_collection .container {
+  display: flex;
+  justify-content: center;
+}
+
+.second_collection .container img {
+  margin: 0 15px;
+}
+
+.second_collection .container p {
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+
+.sneaker-text-1 {
+  position: relative;
+  top: -293px;
+  font-family: "lato-light";
+  font-size: 22px;
+}
+
+.sneaker-text-2 {
+  position: relative;
+  top: -293px;
+  font-family: "lato-black";
+  font-size: 50px;
+}
+
+.new-text-1 {
+  position: relative;
+  top: -293px;
+  font-family: "lato-light";
+  font-size: 22px;
+}
+
+.new-text-2 {
+  position: relative;
+  top: -293px;
+  font-family: "lato-black";
+  font-size: 50px;
+}
+
+.offer-text-1 {
+  position: relative;
+  top: -293px;
+  font-family: "lato-black";
+  font-size: 50px;
+  color: transparent !important;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+}
+
+.offer-text-2 {
+  position: relative;
+  top: -293px;
+  font-family: "lato-light";
+  font-size: 22px;
+}
+
+.box-btn-sneaker {
+  width: 165px;
+  position: relative;
+  top: -265px;
+  left: 83px;
+  font-family: "lato-light";
+}
+
+.box-btn-offer {
+  width: 165px;
+  position: relative;
+  top: -265px;
+  left: 83px;
+  font-family: "lato-light";
+}
+
+.box-btn-new {
+  width: 165px;
+  position: relative;
+  top: -265px;
+  left: 83px;
+  font-family: "lato-light";
+}
+
+.collection-sneakers {
+  height: 400px;
+  margin-top: 60px;
+}
+
+.collection-offers {
+  height: 400px;
+}
+
+.collection-new {
+  height: 400px;
+  margin-top: 60px;
+}
+
+.second_collection {
+  margin-top: 20px;
+}
+
+.main-store{
+  list-style: none;
+  display: flex;
+}
+
+.background-img{
+  display: flex;
+  justify-content: center;
+}
+
+.img-background-2{
+  position: absolute;
+  left: 201px;
+}
+
+.store{
+  margin-top: 100px;
+}
+
+.store-gallery{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  top: -422px;
+  left: 351px;
+  width: 790px;
+}
+
+.store-img {
+  height: 500px;
+}
+
+.store-adress{
+  width: 100%;
+  font-family: "lato-light";
+  margin: 77px;
+}
+
+.store-adress strong{
+  font-family: "lato-black" !important;
+}
+
+.store-adress h3{
+  font-size: 25px;
+  margin-bottom: 60px;
+}
+
+.box-change-store {
+  position: absolute;
+  z-index: 2;
+  width: 140px;
+  height: 60px;
+  top: 75%;
+  left: 77%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-left-store {
+  height: 40px;
+  width: 40px;
+  margin: 0;
+  border: 1px solid #000;
+}
+
+.btn-right-store {
+  height: 40px;
+  width: 40px;
+  margin: 0;
+  border: 1px solid #000;
+}
+
+.btn-right-store svg{
+  transform: translate(15px, 8px);
+}
+
+.btn-left-store svg{
+  transform: translate(12px, 9px);
+}
+
+.store-logo{
+  height: 122px;
+  background: white;
+  position: relative;
+  width: 274px;
+  top: -485px;
+  left: 419px;
+  -webkit-box-shadow: 4px 4px 14px 0px rgba(50, 50, 50, 0.7);
+  -moz-box-shadow: 4px 4px 14px 0px rgba(50, 50, 50, 0.7);
+  box-shadow: 4px 4px 14px 0px rgba(50, 50, 50, 0.7);
+}
+
+.logo-box svg{
+  margin-left: 35px;
+}
+
+.insta-title{
+  text-align: center;
+  font-family: "lato-light";
+}
+
+.insta-title h2{
+  font-size: 25px;
+}
+
+.insta-pictures{
+  display:flex;
+  margin: 0 5px;
+}
+
+.insta-pictures li{
+  list-style: none;
+}
+
+.insta-pictures li img:hover{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
