@@ -613,6 +613,13 @@ a {
   justify-content: center;
 }
 
+.background-img svg{
+  position: absolute;
+  z-index: 999;
+  left: 919px;
+  top: 2877px;
+}
+
 .img-background-2{
   position: absolute;
   left: 201px;
