@@ -21,7 +21,7 @@ function slickShelf(){
 }
 slickShelf();
 
-//Função responsável por exibir e esconder botão de compra na prateleira de produtos
+//Função responsável por exibir e esconder botão de compra na prateleira de produtos de acordo com hover
 function btnShelf(){
   $('.product-item').on('mouseenter', function(){
     $(this).find("p").css("display", "flex");
@@ -31,3 +31,11 @@ function btnShelf(){
   });
 }
 btnShelf();
+
+//Estou forçando o botão de comprar ficar com display none ao final do loading da página
+function forceBtn(){
+  $(window).on("load", function(){
+    $('.box-btn-comprar').trigger("mouseleave");
+ });
+}
+forceBtn();
